@@ -1,0 +1,16 @@
+.itemList ul{
+    list-style: none;
+    font-size: 1.5em;
+
+}
+.itemList li{
+    border: 2px solid rgb(138, 0, 143);
+    border-radius: 10px;
+    margin-top: 5px;
+    padding:10px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.itemList li:hover{
+    background: rgba(255, 255, 240, 0.548);
+}

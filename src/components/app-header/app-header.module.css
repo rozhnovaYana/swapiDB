@@ -1,0 +1,29 @@
+.appHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.appHeader ul{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-column-gap: 50px;
+    list-style: none;
+}
+.appHeader a{
+    text-decoration: none;
+    color:rgb(114, 0, 85);
+    font-size: 1.5em;
+}
+.appHeader li{
+    border: 2px solid rgb(138, 0, 143);
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s all;
+}
+.appHeader li:hover{
+    background: rgba(255, 255, 240, 0.548);
+}
+.title a{
+    font-size: 2.5em;
+    color:rgb(72, 0, 139);
+}

@@ -1,0 +1,21 @@
+.randomPlanet{
+    display: flex;
+
+}
+.randomPlanet img{
+    width: 300px;
+}
+.randomPlanetText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    border: 2mm ridge rgba(138, 0, 143, 0.349);
+    width: 100%;
+    
+}
+.randomPlanetText div{
+    margin-top: 15px;
+    color: indigo;
+    font-size: 1.2em;
+}
