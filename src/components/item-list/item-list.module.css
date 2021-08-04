@@ -10,6 +10,8 @@
     padding:10px;
     transition: 0.5s all;
     cursor: pointer;
+    color:rgb(114, 0, 85);
+
 }
 .itemList li:hover{
     background: rgba(255, 255, 240, 0.548);

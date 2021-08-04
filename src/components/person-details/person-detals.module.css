@@ -1,0 +1,12 @@
+.personDetails{
+    display: flex;
+    padding: 50px 20px;
+}
+.personDetails img{
+    width: 150px;
+}
+.personDetailsText{
+    margin-left: 10px;
+    color:rgb(114, 0, 85);
+    font-size: 1.5em;
+}
